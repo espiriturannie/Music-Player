@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/904fa8d934.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-body">
+        <div class="container">
+            <div class="img_area">
+                <div class="music_img">
+                    <img src="">
+                </div>
+            </div>
+
+            <div class="song_detail">
+                <h3 class="name"></h3>
+                <p class="artist"></p>
+            </div>
+
+            <div class="audio">
+                <div class="song_timer">
+                    <span class="current_time">0:00</span>
+                    <span class="max_duration">0.00</span>
+                </div>
+                <div class="progress_area">
+                    <div class="progress_bar">
+                        <span>
+                            <audio id="main_audio" src="">
+                            </audio>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div id="prev"><i class="fa-solid fa-backward-step"></i></div>
+                <div id="play_pause">
+                    <span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <div id="next"><i class="fa-solid fa-forward-step"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="music_details">
+        <h1>Explore</h1>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('lyrics')">Lyrics</p>
+            <p class="tab-links" onclick="opentab('other_album')">Other Album</p>
+            <p class="tab-links" onclick="opentab('related_artists')">Related Artists</p>
+        </div>
+        <div class="tab-contents active-tab" id="lyrics">
+
+        </div>
+        <div class="tab-contents" id="other_album">
+            <img id="album_image">
+            <p class="album_title"></p>
+            <small class="year">2023</small>
+        </div>
+        <div class="tab-contents" id="related_artists">
+            <img id="artist_img">
+            <p class="artist_title"></p>
+            <small class="year">2023</small>
+        </div>
+    </div>
+    </div> -->
+
+
+    <script src="js/index.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/playlist.js"></script>
+</body>
+
+</html>
